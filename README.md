@@ -91,16 +91,15 @@ We hope it can help you to review our manuscript.
          + Compilation classification task: accuracy of test set classification
          + Deadstore prediction task: precision, recall and accuracy of deadstore predictions
 
-# Tools and datasets links
-## Tools: 
-   + We use angr to generate three types of graphs
-      + Angr : https://github.com/angr/angr
-   + We use DrCCTProf to find all the dead stores that exist in target programs
-      + DrCCTProf : https://github.com/Xuhpclab/DrCCTProf
+# Datasets and tools links
 ## Datasets: 
    + For the binary similarity detection task, we use the POJ-104 dataset as our test data
       + POJ-104 : https://sites.google.com/site/treebasedcnn
    + For the dead store prediction task, we choose the SPEC CPU 2017 benchmark as our dataset
       + SPEC CPU 2017 : http://www.spec.org/cpu2017 
-
+## Tools: 
+   + We use angr to generate three types of graphs
+      + Angr : https://github.com/angr/angr
+   + We use DrCCTProf to find all the dead stores that exist in target programs
+      + DrCCTProf : https://github.com/Xuhpclab/DrCCTProf
 
