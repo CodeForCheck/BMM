@@ -95,6 +95,7 @@ We hope it can help you to review our manuscript.
 ## Datasets: 
    + For the binary similarity detection task, we use the POJ-104 dataset as our test data
       + POJ-104 : https://sites.google.com/site/treebasedcnn
+                  https://github.com/bdqnghi/tbcnn.tensorflow
    + For the dead store prediction task, we choose the SPEC CPU 2017 benchmark as our dataset
       + SPEC CPU 2017 : http://www.spec.org/cpu2017 
 ## Tools: 
