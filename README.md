@@ -67,7 +67,7 @@ Due to company confidentiality requirements, the data cannot be copied or shared
    + Construct the dataset by integrating all the initial data with the following instructions
       + python data_preparation_bert.py --pre_data_path=path_of_dataset
       + output
-         + Each sample will output a file, the file contains the compilation category of the sample, the program number to which it belongs, CFG, DFG, CG and the initial embedding of the nodes of CFG and DFG. For the dead store prediction task, a label indicating whether the sample contains a dead store is also included.
+         + Output a file for each sample, the file contains the compilation category of the sample, the program number to which it belongs, CFG, DFG, CG and the initial embedding of the nodes of CFG and DFG. For the dead store prediction task, a label indicating whether the sample contains a dead store is also included.
 
 # Training process
 ## scripts
