@@ -1,4 +1,4 @@
-# Supplementary material
+# BMM
 
 In this supplemental material, we describe in detail the complete experimental process, including data collection, data pre-processing, model training and testing.
 We hope it can help you to review our manuscript.
