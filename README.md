@@ -80,11 +80,11 @@ Due to company confidentiality requirements, the data cannot be copied or shared
 
 ## run steps
    + Start training and testing the model by executing the following instructions.
-      + python train.py --task=task_name --pre_data_path= path_of_dataset
+      + python train.py --task=task_name --pre_data_path=path_of_dataset
       + Selection of parameter "task" 
          + Binary similarity detection task: set task=binaryClassify
-         + Compile the classification task, set task=funcClassify
-         + Deadstore task, set task=deadstore
+         + Compilation classification task: set task=funcClassify
+         + Deadstore prediction task: set task=deadstore
       + output:
          + Binary similarity detection task: the similarity distance of each pair of samples in the test set, and their respective ground truth labels
          + Compilation classification task: accuracy of test set classification
