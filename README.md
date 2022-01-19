@@ -1,6 +1,7 @@
 # Supplementary material
 
-Due to company confidentiality requirements, the data cannot be copied or shared outside in any way. So we can only provide here a complete description of our experimental process and part of the code, which we hope will help you to review our work.
+In this supplemental material, we describe in detail the complete experimental process, including data collection, data pre-processing, model training and testing.
+We hope it can help you to review our manuscript.
 
 # Data collection
 ## scripts
@@ -90,16 +91,16 @@ Due to company confidentiality requirements, the data cannot be copied or shared
          + Compilation classification task: accuracy of test set classification
          + Deadstore prediction task: precision, recall and accuracy of deadstore predictions
 
-# Datasets and tool links
-## Datasets: 
-   + For the binary similarity detection task, we use the POJ-104 dataset as our test data
-      + POJ-104 : https://sites.google.com/site/treebasedcnn
-   + For the dead store prediction task, we choose the SPEC CPU 2017 benchmark as our dataset
-      + SPEC CPU 2017 : http://www.spec.org/cpu2017 
+# Tools and datasets links
 ## Tools: 
    + We use angr to generate three types of graphs
       + Angr : https://github.com/angr/angr
    + We use DrCCTProf to find all the dead stores that exist in target programs
       + DrCCTProf : https://github.com/Xuhpclab/DrCCTProf
+## Datasets: 
+   + For the binary similarity detection task, we use the POJ-104 dataset as our test data
+      + POJ-104 : https://sites.google.com/site/treebasedcnn
+   + For the dead store prediction task, we choose the SPEC CPU 2017 benchmark as our dataset
+      + SPEC CPU 2017 : http://www.spec.org/cpu2017 
 
 
