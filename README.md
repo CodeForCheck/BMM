@@ -1,6 +1,5 @@
 # Supplementary material
 
-# Description
 Due to company confidentiality requirements, the data cannot be copied or shared outside in any way. So we can only provide here a complete description of our experimental process and part of the code, which we hope will help you to review our work.
 
 # Data collection
