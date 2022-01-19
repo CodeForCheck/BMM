@@ -101,6 +101,5 @@ We hope it can help you to review our manuscript.
 ## Tools: 
    + We use angr to generate three types of graphs
       + Angr : https://github.com/angr/angr
-   + We use DrCCTProf to find all the dead stores that exist in target programs
-      + DrCCTProf : https://github.com/Xuhpclab/DrCCTProf
+
 
