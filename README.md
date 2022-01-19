@@ -35,7 +35,7 @@ Due to company confidentiality requirements, the data cannot be copied or shared
    + Detect all the dead stores in the program by DrCCTProf and output the functions they belong to. Use these outputs to label each function of the target program (label 0 or 1)
 
 
-# BERT training
+# Getting initial embedding of each node
 ## scripts
    + get_vocab.py : to get the vocabulary of the dataset
    + create_bert_sample.py : to obtain the training data of BERT
