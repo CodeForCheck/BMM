@@ -19,7 +19,7 @@ Due to company confidentiality requirements, the data cannot be copied or shared
          + --opti_t: compile options (can be gcc-O2, gcc-O3, llvm-O2, and llvm-O3）
       + output
          + program_bb : records all the assembly instructions of the program
-         + programI_adj : records the adjacency matrix of the CFG of each function of the program. 
+         + program_adj : records the adjacency matrix of the CFG of each function of the program. 
          + program_arg : records the node (BB) description of each CFG. Each CFG contains two lines. The first line has two parameters, which are the address of the first instruction of the function, and the total number of BBs contained in the CFG of the function. The second line is the number of instructions per BB of the CFG.
    + run the following instruction to obtain the CG of the program
       + python cg_build.py --target_program="poj"/"spec" --output=output_path --comp_t=compiler --opti_t=compile_option
