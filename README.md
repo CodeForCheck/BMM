@@ -22,12 +22,12 @@ Due to company confidentiality requirements, the data cannot be copied or shared
          + program_adj : records the adjacency matrix of the CFG of each function of the program. 
          + program_arg : records the node (BB) description of each CFG. Each CFG contains two lines. The first line has two parameters, which are the address of the first instruction of the function, and the total number of BBs contained in the CFG of the function. The second line is the number of instructions per BB of the CFG.
    + run the following instruction to obtain the CG of the program
-      + python cg_build.py --target_program="poj"/"spec" --output=output_path --comp_t=compiler --opti_t=compile_option
+      + python cg_build.py --target_program=poj/spec --output=output_path --comp_t=compiler --opti_t=compile_option
       + output
          + program_cg_adj : records the adjacency matrix of the CG of the program
          + program_cg_arg : records the description of all nodes of the CG. The first line of this file is the total number of nodes, followed by one parameter per line, indicating the address of the first instruction of the function corresponding to each node
    + run the following instruction to obtain the DFG of the program
-      + python dfg_build.py --target_program="poj"/"spec" --output=output_path --comp_t=compiler --opti_t=compile_option
+      + python dfg_build.py --target_program=poj/spec --output=output_path --comp_t=compiler --opti_t=compile_option
       + output
          + program_dfg_adj : records the adjacency matrix of the DFG of the program
          + program_dfg_arg : records the description of all nodes of the DFG. The first line of this file is the total number of nodes, followed by a parameter per line, indicating the address of the instruction corresponding to each node
