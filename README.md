@@ -11,7 +11,7 @@ Due to company confidentiality requirements, the data cannot be copied or shared
 ## run steps
    + compile each target program according to the specified option (can be gcc-O2, gcc-O3, llvm-O2, and llvm-O3)
    + run the following instruction to obtain the CFG of all functions and the instructions of each BB
-      + python cfg_build.py --target_program="poj"/"spec" --output=output_path --comp_t=compiler --opti_t=compile_option 
+      + python cfg_build.py --target_program=poj/spec --output=output_path --comp_t=compiler --opti_t=compile_option 
       + parameter 
          + --target_program: program set categories, choose poj or spec
          + --output: storage path for output file
